@@ -1,1 +1,4 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: Roboto;
+    src: url("/assets/fonts/RobotoFlex-VariableFont_GRAD\,XTRA\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,opsz\,slnt\,wdth\,wght.ttf");
+}
