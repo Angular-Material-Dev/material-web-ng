@@ -10,6 +10,7 @@ import "@material/web/icon/icon";
   template: `
     <md-text-button
       [attr.trailing-icon]="trailingIcon ? trailingIcon : undefined"
+      [attr.disabled]="disabled ? disabled : undefined"
     >
       <md-icon slot="icon" *ngIf="icon">{{ icon }}</md-icon>
       <ng-content></ng-content>
@@ -21,4 +22,5 @@ import "@material/web/icon/icon";
 export class TextComponent {
   @Input() icon: string | undefined = "";
   @Input() trailingIcon = false;
+  @Input() disabled = false;
 }
