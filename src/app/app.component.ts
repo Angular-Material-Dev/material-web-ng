@@ -1,6 +1,6 @@
 import { CUSTOM_ELEMENTS_SCHEMA, Component } from "@angular/core";
 import { CommonModule } from "@angular/common";
-import { TextComponent } from "./elements/buttons/text/text.component";
+import { ButtonTextComponent } from "./elements/buttons/text/text.component";
 import "@material/web/button/elevated-button";
 import "@material/web/button/filled-button";
 import "@material/web/button/outlined-button";
@@ -10,7 +10,7 @@ import "@material/web/button/filled-tonal-button";
 @Component({
   selector: "app-root",
   standalone: true,
-  imports: [CommonModule, TextComponent],
+  imports: [CommonModule, ButtonTextComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   template: `
     <h3>@material/web components</h3>

@@ -19,8 +19,8 @@ import "@material/web/icon/icon";
   styles: [],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
-export class TextComponent {
-  @Input() icon: string | undefined = "";
+export class ButtonTextComponent {
+  @Input() icon = "";
   @Input() trailingIcon = false;
   @Input() disabled = false;
 }
